@@ -13,8 +13,8 @@ public class Main
         Scanner file = new Scanner(System.in);
         Scanner input = new Scanner(new File(file.next()));
         int amount = input.nextInt();
-        ArrayList <Integer> vertices = new ArrayList();
-        ArrayList<AbstractGraph.Edge> edges = new ArrayList<>();
+        ArrayList<Integer> vertices = new ArrayList();
+        ArrayList<AbstractGraph.Edge> edges = new ArrayList();
         while(input.hasNextLine())
         {
             Scanner s = new Scanner(input.nextLine());
